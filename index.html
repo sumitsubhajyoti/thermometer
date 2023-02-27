@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="thermometer">
+        <form action="" onsubmit="return false" style="text-align:center">
+            <label for="temp" class="text">Enter the temperature to be converted</label><br/><br/>
+            <input type="number" name="temp" placeholder="enter temp in degrees"class="temp-input">
+            <select name="temp1" id="degree-type-select">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="submit" value="submit" name="temp" class="submit"><br><br>
+            <span class="display-result" style="text-align: center;"></span>
+        </form>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
